@@ -18,6 +18,6 @@ public class EurekaMainApplication {
     private static final Logger log = LoggerFactory.getLogger(EurekaMainApplication.class);
     public static void main(String[] args) {
         SpringApplication.run(EurekaMainApplication.class,args);
-        log.info("SystemMainApplication 启动成功 ");
+        log.info("EurekaMainApplication 启动成功 ");
     }
 }
