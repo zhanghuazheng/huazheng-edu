@@ -1,6 +1,6 @@
 package com.huazheng.common.service;
 
-import com.huazheng.common.dao.TestDao;
+import com.huazheng.common.dao.TestMapper;
 import com.huazheng.common.domain.Test;
 import org.springframework.stereotype.Service;
 
@@ -16,10 +16,10 @@ import java.util.List;
 @Service
 public class TestService {
     @Resource
-    private TestDao testDao;
+    private TestMapper testMapper;
 
     public List<Test> findAll(){
-        return testDao.findAll();
+        return testMapper.selectByExample(null);
     }
 
 }
