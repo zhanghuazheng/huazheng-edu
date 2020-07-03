@@ -1,6 +1,6 @@
-package com.huazheng.system.dao;
+package com.huazheng.common.dao;
 
-import com.huazheng.system.domain.Test;
+import com.huazheng.common.domain.Test;
 
 import java.util.List;
 

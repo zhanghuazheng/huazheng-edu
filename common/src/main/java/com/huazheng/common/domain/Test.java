@@ -1,4 +1,4 @@
-package com.huazheng.system.domain;
+package com.huazheng.common.domain;
 
 import lombok.Data;
 

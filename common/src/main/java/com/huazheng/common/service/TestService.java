@@ -1,7 +1,7 @@
-package com.huazheng.system.service;
+package com.huazheng.common.service;
 
-import com.huazheng.system.dao.TestDao;
-import com.huazheng.system.domain.Test;
+import com.huazheng.common.dao.TestDao;
+import com.huazheng.common.domain.Test;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

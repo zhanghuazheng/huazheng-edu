@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @Classname SystemMainApplication
@@ -15,7 +16,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  */
 @SpringBootApplication
 @EnableEurekaClient
-@MapperScan("com.huazheng.system.dao")
+@MapperScan("com.huazheng.common.dao")
+@ComponentScan("com.huazheng")
 public class SystemMainApplication {
     private static final Logger log = LoggerFactory.getLogger(SystemMainApplication.class);
 
