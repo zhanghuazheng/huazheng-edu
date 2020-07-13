@@ -9,6 +9,8 @@
         <module>gateway</module>
         <module>common</module>
         <module>business</module>
+        <module>admin-web</module>
+        <module>base-letcode</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
